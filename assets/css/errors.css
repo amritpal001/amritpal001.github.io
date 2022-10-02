@@ -110,7 +110,7 @@ body {
     }
 }
 
-a.back {
+.back {
     position: fixed;
     right: 40px;
     bottom: 40px;
@@ -126,6 +126,6 @@ a.back {
     transition: 0.25s all ease-in-out;
 }
 
-a.back:hover {
+.back:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
