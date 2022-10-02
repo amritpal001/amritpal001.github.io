@@ -1,49 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <style>
-            .scenery
-	.stars
-		- for(i=0; i<100; i++)
-			.star
-	.planet.planet1
-	.planet.planet2
-	.planet.planet3
-	.girl
-		.head
-		.body
-		.legs
-	.title
-		h1
-			span 4
-			.square
-				.light.light1
-				.light.light2
-				.light.light3
-				.light.light4
-				.shadow.shadow1
-				.shadow.shadow2
-				ul.stairs1
-					- for(i=0; i<12; i++)
-						li
-				ul.stairs2
-					- for(i=0; i<11; i++)
-						li
-				ul.stairs3
-					- for(i=0; i<10; i++)
-						li
-				ul.stairs4
-					- for(i=0; i<11; i++)
-						li
-			span 4
-	.message
-		h2 Oops! Looks like you got lost
-	
-	.action
-		button Take me back
-        </style>
-    </head>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+    <div class="error-page">
+        <div>
+            <h1 data-h1="404">404</h1>
+            <p data-p="NOT FOUND">NOT FOUND</p>
+        </div>
+    </div>
+
+    <a href="#" class="back">GO BACK</a>
+
+    <div id="tsparticles"></div>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js"></script>
+    <script type="text/javascript" src="/assets/js/errors.js"></script>
+</body>
 
 </html>
